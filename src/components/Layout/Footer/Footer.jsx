@@ -19,15 +19,15 @@ const Footer = () => {
                     fontSize="50"
                 >
 
-                <a href="https://youtube.com" target={'_blank'} >
+                <a href="https://youtube.com" target={'blank'} >
                     <TiSocialYoutubeCircular/>
                 </a>
 
-                <a href="https://www.instagram.com/hansraj_parmar7/" target={'_blank'} >
+                <a href="https://www.instagram.com/hansraj_parmar7/" target={'blank'} >
                     <TiSocialInstagramCircular/>
                 </a>
 
-                <a href="https://github.com/hansrajparmar" target={'_blank'} >
+                <a href="https://github.com/hansrajparmar" target={'blank'} >
                     <DiGithub/>
                 </a>
 
