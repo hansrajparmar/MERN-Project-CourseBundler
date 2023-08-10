@@ -38,28 +38,6 @@ const VideoPlayer = () => (
     </Box>
 )
 
-const TandC = (termsAndCondition) => (
-    <Box>
-        <Heading 
-            size={"md"} 
-            children="Terms & Conditions" 
-            textAlign={["center", "left"]} 
-            my="4" 
-        />
-
-        <Box h="sm" p="4">
-            <Text 
-                fontFamily={"heading"} 
-                letterSpacing={"widest"} 
-                textAlign={["center", "left"]} 
-            >
-                {termsAndCondition}
-            </Text>
-            <Heading my="4" size={"xs"} children="Refund only applicable for cancellation within 7 days." />
-
-        </Box>
-    </Box>
-)
 
 const About = () => {
   return (
@@ -82,7 +60,7 @@ const About = () => {
         </Stack>
         <VideoPlayer/>
 
-        <TandC termsAndCondition={"termsAndCondition"} />
+        {/* <TandC termsAndCondition={"termsAndCondition"} /> */}
 
         <HStack my="4" p={"4"} >
             <RiSecurePaymentFill/>
