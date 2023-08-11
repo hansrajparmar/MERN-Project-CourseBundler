@@ -16,8 +16,8 @@ import PaymentFail from "./components/Payments/PaymentFail";
 import PaymentSuccess from "./components/Payments/PaymentSuccess";
 import NotFound from "./components/Layout/NotFound/NotFound";
 import CoursePage from './components/CoursePage/CoursePage';
+import Profile from './components/Profile/Profile';
 
-  
 
 
 function App() {
@@ -38,6 +38,7 @@ function App() {
             <Route path='/contact' element={<Contact/>} />
             <Route path='/request' element={<Request/>} />
             <Route path='/about' element={<About/>} />
+            <Route path='/profile' element={<Profile/>} />
             <Route path='/login' element={<Login/>} />
             <Route path='/register' element={<Register/>} />
             <Route path='/forgetpassword' element={<ForgetPassword/>} />
