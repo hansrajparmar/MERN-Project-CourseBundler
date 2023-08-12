@@ -1,6 +1,7 @@
 import { Box, Grid, Heading, Text, VStack } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import introVideo from "../../assets/videos/bb.mp4"
+//coursePage
 
 const CoursePage = () => {
 
